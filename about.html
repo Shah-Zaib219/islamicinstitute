@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Secret Coder : About Us</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+ <div id="nav"></div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+    
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
+                    <h1 class="mb-4" style="color: #fb873f;">Welcome to Virtual Islamic Institute</h1>
+                    <p class="mb-4">
+                        At Virtual Islamic Institute, we are committed to providing authentic Islamic knowledge through modern technology. Our platform offers accessible, high-quality education under the supervision of renowned Islamic scholars (Ulama), ensuring a comprehensive and spiritually enriching learning experience.
+                    </p>
+    
+                    <h3 class="mb-4">Our Vision</h3>
+                    <p class="mb-4">We envision a world where Islamic education is accessible to everyone, regardless of location or background. Our goal is to create a transformative learning environment that nurtures faith, knowledge, and practice.</p>
+    
+                    <h3 class="mb-4">Supervision by Esteemed Scholars (Ulama)</h3>
+                    <p class="mb-4">Virtual Islamic Institute operates under the guidance of experienced male and female Islamic scholars, ensuring that all courses align with authentic Islamic teachings. Our scholars provide deep insights, spiritual mentorship, and scholarly verification of all content.</p>
+    
+                    <h3 class="mb-4">Authentic Knowledge Backed by the Quran & Hadith</h3>
+                    <p class="mb-4">The Prophet Muhammad (peace be upon him) said: "Seeking knowledge is an obligation upon every Muslim." (Sunan Ibn Majah, 224). Our courses integrate Quranic teachings, Hadith, and Islamic jurisprudence to provide a holistic learning experience.</p>
+    
+                    <h3 class="mb-4">24/7 Online Learning</h3>
+                    <p class="mb-4">Our platform provides round-the-clock access to courses, recorded lectures, and interactive sessions, allowing students to learn at their own pace. Whether you are a student, professional, or homemaker, we ensure flexibility in learning.</p>
+    
+                    <h3 class="mb-4">Innovative Islamic Learning</h3>
+                    <p class="mb-4">We embrace modern technology to enhance the learning experience. Our platform offers live classes, interactive Q&A sessions, and multimedia content designed to engage and educate learners effectively.</p>
+    
+                    <h3 class="mb-4">Community and Spiritual Growth</h3>
+                    <p class="mb-4">Virtual Islamic Institute is more than just an educational platform—it is a community of seekers of knowledge. We foster an environment of mutual learning, discussion, and spiritual development.</p>
+    
+                    <h3 class="mb-4">Inclusive and Diverse Education</h3>
+                    <p class="mb-4">We welcome students from all backgrounds and levels of Islamic knowledge. Our courses cater to beginners as well as advanced learners, ensuring a path for everyone to deepen their understanding of Islam.</p>
+    
+                    <h3 class="mb-4">Commitment to Excellence</h3>
+                    <p class="mb-4">We strive for excellence in education by continuously improving our curriculum based on student feedback and scholarly guidance.</p>
+    
+                    <p class="mt-5 mb-4">The Prophet (peace be upon him) said: "When a person dies, his deeds come to an end except for three: ongoing charity, beneficial knowledge, or a righteous child who prays for him." (Sahih Muslim, 1631). At Virtual Islamic Institute, we aim to provide beneficial knowledge that continues to impact lives positively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    
+    <!-- About End -->
+
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
+    <!-- Footer End -->
+
+    <script>
+        function loadComponent(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data)
+                .catch(error => console.error('Error loading ' + file, error));
+        }
+
+        loadComponent('nav', 'pages/nav.html');
+        loadComponent('footer', 'pages/footer.html');
+
+
+
+    </script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
